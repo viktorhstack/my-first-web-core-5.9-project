@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: #f4f6fb;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin: 60px 40px;
+    background-color:#ffffff;
+    border-radius: 10px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+width: 50%;
+padding: 80px 60px;
+}
+
+.right h2 {
+    color: #7b8a92;
+}
+
+.right p {
+    color: #6c6c6c;
+}
+
+.left img {
+    width: 100%;
+    display: block;
+}
+.buttons {
+    display: flex;
+      gap: 20px;
+}
+
+.buttons a {
+    display: flex;
+    align-items: center;
+     gap: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    width: 320px;
+   
+}
+.facebook {
+    background-color: #255a9b;
+}
+.linkedin {
+    background-color: #0076b5;
+}
+.buttons img {
+    width: 16px;
+}
+.or {
+    text-align: center;
+    margin: 30px 0;
+    color: #7b8a92;
+    border-bottom: 1px solid #e1e5e7;
+    line-height: 0.1em;
+}
+.or span {
+    background: #ffffff;
+    padding: 0 10px;
+}
