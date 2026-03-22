@@ -9,7 +9,8 @@
 <body>
     <div class="container">
     <div class="left">
-       <img src="bg.jpg">  
+       <img src="images/bg.jpg" alt="Картинка" class="left-img"> 
+       <img src="images/logo.svg" alt="Логотип" class="logo">
 </div>
    
     <div class="right">
@@ -20,17 +21,70 @@
     <div class="buttons">
         
          <a class="facebook" href="#">
-            <img src="facebook.svg">
+            <img src="images/facebook.svg">
         Register with Facebook
          </a>
         <a class="linkedin" href="#">
-            <img src="linkedin.svg">
+            <img src="images/linkedin.svg">
         Registr with    Linkedin
         </a>
     </div> 
 
     <div class="or">
     <span>OR</span>
+    </div>
+    <div class="inputs">
+        <input type="email" placeholder="Email">
+        <input type="tel" placeholder="Phone">
+    </div>
+    <div class="investor-block">
+    <h3 class="radio-title"> 
+        What type of investor are you?
+
+    </h3>
+    <p class="radio-subtitle">
+        Select the type of investor you are below.
+    </p>
+    
+    <div class="radio-group">
+        <label>
+            <input type="radio" name="type" checked>
+            Individual
+          <span class="info">i</span>
+        </label>
+        <label>
+            <input type="radio" name="type">
+            Business
+            <span class="info">i</span>
+        </label>
+        <label>
+            <input type="radio" name="type">
+            IRA
+            <span class="info">i</span>
+        </label>
+        <label>
+         <input type="radio" name="type">
+          Trust
+          <span class="info">i</span>
+        </label>
+    </div>
+
+    <p class="radio-text">
+        I am a natural person investing on my own 
+        behalf 
+        as a sole owner, joint tenant,
+        or tenant in common.
+    </p>
+    <label class="agree">
+        <input type="checkbox">
+        I agree to the terms and receiving 
+        notifications from iintoo
+        <a href="#">Viev full terms</a>
+    </label>
+
+    <button class="create-account">
+        Create Account
+    </button>
     </div>
     </div>
     </div>
